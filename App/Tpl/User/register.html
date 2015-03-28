@@ -1,0 +1,95 @@
+<include file="Public:public_header" />
+
+    <div class="container">
+
+      <div class="row">
+          <div class="span8">
+              <div class="content">
+                    <div class="content-header"><h3>用户登录</h3>
+                    </div>
+                    <div class="content-list">
+                       
+                      <form class="form-horizontal" id="register_form" method="post" action="{:U('User/doRegister')}">
+    <fieldset>
+      
+    <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">账&nbsp;&nbsp;&nbsp;&nbsp;号</label>
+          <div class="controls">
+              <input type="text" name="uname" placeholder="请输入您的账号名" class="input-xlarge"><span><b>&nbsp;ok!</b></span>
+            <p class="help-block">账号会显示为您的常用昵称</p>
+          </div>
+        </div>
+ <div class="control-group">
+
+     <!-- Text input-->
+          <label class="control-label" for="input01">邮&nbsp;&nbsp;&nbsp;&nbsp;箱</label>
+          <div class="controls">
+              <input type="text" id='register_email' name="email" placeholder="请输入您常用的邮箱账号" class="input-xlarge"><span><b>&nbsp;ok!</b></span>
+            <p class="help-block" id='register_email_str'>请输入您常用的邮箱账号</p>
+          </div>
+        </div>
+
+    
+
+    <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+          <div class="controls">
+            <input type="password" name="password" id="register_pwd1" placeholder="请输入您的密码" class="input-xlarge">
+            <p class="help-block" id="register_pwd1_str">请输入您的密码</p>
+          </div>
+        </div>
+
+    <div class="control-group">
+
+          <!-- Text input-->
+          <label class="control-label" for="input01">确认密码</label>
+          <div class="controls">
+            <input type="password" name="password1" id="register_pwd2" placeholder="请再次输入您的密码" class="input-xlarge">
+            <p class="help-block" id="register_pwd2_str">确认您的密码安全</p>
+          </div>
+        </div><div class="control-group">
+          <label class="control-label"></label>
+
+          <!-- Button -->
+          <div class="controls">
+            <a id='register_sub_btn' class="btn btn-info">点我注册</a>
+            <a class="btn btn-primary">返回登陆</a>
+          </div>
+        </div>
+
+    
+
+    </fieldset>
+  </form>
+
+                    </div>
+                    <div class="content-others">
+                        <h4>热门话题</h4>
+                        <ul>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                        </ul>
+                    </div>
+              </div>
+          </div>
+          <div class="span4">
+              <div class="content"></div>
+          </div>
+      </div>
+        
+<!--    <footer>
+        <p>&copy; Company 2013</p>
+        </footer>-->
+    </div>
+      <!-- /container end-->
+   
+<include file="Public:public_footer" />

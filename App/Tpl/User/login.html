@@ -1,0 +1,76 @@
+<include file="Public:public_header" />
+
+    <div class="container">
+
+      <div class="row">
+          <div class="span8">
+              <div class="content">
+                    <div class="content-header"><h3>用户登录</h3>
+                    </div>
+                    <div class="content-list">
+                       
+                        <form class="form-horizontal" method='post' action='{:U("User/doLogin")}'>
+                            <fieldset>
+                                
+                                <div class="control-group">
+
+                                    <!-- Text input-->
+                                    <label class="control-label" for="input01">用户名</label>
+                                    <div class="controls">
+                                        <input type="text" name="uname" placeholder="用户名" class="input-xlarge">
+                                        <p class="help-block">请输入您的用户名</p>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+
+                                    <!-- Search input-->
+                                    <label class="control-label">密码</label>
+                                    <div class="controls">
+                                        <input type="password" name="password" placeholder="用户密码" class="input-xlarge">
+                                        <p class="help-block">请输入您的用户密码</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label">提交</label>
+
+                                    <!-- Button -->
+                                    <div class="controls">
+                                        <button class="btn btn-primary">登录</button>
+                                        <button class="btn btn-info">快速注册</button>
+                                   
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
+
+                    </div>
+                    <div class="content-others">
+                        <h4>热门话题</h4>
+                        <ul>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                            <li><a>如何搭建linux下面的服务器环境</a></li>
+                        </ul>
+                    </div>
+              </div>
+          </div>
+          <div class="span4">
+              <div class="content"></div>
+          </div>
+      </div>
+        
+<!--    <footer>
+        <p>&copy; Company 2013</p>
+        </footer>-->
+    </div>
+      <!-- /container end-->
+   
+<include file="Public:public_footer" />

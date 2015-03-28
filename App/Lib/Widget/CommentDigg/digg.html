@@ -1,0 +1,9 @@
+<span>
+(<span class='show_digg_number'>{$number}</span>)
+<!--当type为1的时候 赞 0 取消赞-->
+<php>if($type){</php>
+<a href='javascript:;' comment_id='{$comment_id}' uid='{$uid}' class='digg_btn' type='1'>赞</a>
+<php>}else{</php>
+<a href='javascript:;' comment_id='{$comment_id}' uid='{$uid}' class='digg_btn' type='0'>取消赞</a>
+<php>}</php>
+</span>

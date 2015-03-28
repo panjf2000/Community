@@ -1,0 +1,92 @@
+<include file="Public:admin_header" />
+<div class="container">
+	<div class="row">
+		<div class="span12" style='background:#fff;'>
+			<div class='admin_content'>
+			<ul class="breadcrumb">
+				<li>
+					<a href="#">后台管理</a> <span class="divider">/</span>
+				</li>
+				<li>
+					<a href="#">用户管理</a> <span class="divider">/</span>
+				</li>
+				<li class="active">
+					用户列表
+				</li>
+			</ul>
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="{:U('Admin/userlist')}">用户列表</a>
+				</li>
+				<li >
+					<a href="{:U('Admin/user_permission')}">用户权限</a>
+				</li>
+				
+			</ul>
+				<div class='btn-group'>
+				<a href='{:U("Admin/editUser")}' class="btn btn-info">添加新用户</a>
+			</div>
+			<table class="table">
+				<thead>
+					
+					<tr >
+						<th>
+							用户ID
+						</th>
+						<th>
+							用户名
+						</th>
+						<th>邮箱</th>
+						<th>状态</th>
+						<th>性别</th>
+						<th>
+							注册时间
+						</th>
+						<th>
+							注册IP
+						</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<foreach name='lists' item='vo'>
+					<tr>
+						<td>
+							{$vo._id}
+						</td>
+						<td>
+							{$vo.uname}
+						</td>
+						<td>
+							{$vo.email}
+						</td>
+						<td>
+							<font color='blue'>{$vo.status}</font>
+						</td>
+						<td>
+							{$vo.sex}
+						</td>
+						<td>
+							{$vo.created_date|date='Y/m/d h:i:s',###}
+						</td>
+						<td>
+							{$vo.ip}
+						</td>
+						<td>
+							{$vo.action}
+<!--							<a href='#' class='btn btn-info btn-mini'>编辑</a>
+							<a href='#' class='btn btn-primary btn-mini'>发布</a>
+							<a href='#' class='btn btn-success btn-mini'>隐藏</a>-->
+						</td>
+					</tr>
+					</foreach>
+					
+				</tbody>
+			</table>
+				</div>
+			{$page}
+		</div>
+		
+	</div>
+</div>
+<include file="Public:admin_footer" />

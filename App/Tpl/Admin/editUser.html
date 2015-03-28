@@ -1,0 +1,121 @@
+<include file="Public:admin_header" />
+<div class="container">
+	<div class="row">
+		<div class="span12" style='background:#fff;'>
+			<div class='admin_content'>
+			<ul class="breadcrumb">
+				<li>
+					<a href="#">后台管理</a> <span class="divider">/</span>
+				</li>
+				<li>
+					<a href="#">用户管理</a> <span class="divider">/</span>
+				</li>
+				<li >
+					编辑用户
+				</li>
+			</ul>
+			<ul class="nav nav-tabs">
+				<li >
+					<a href="{:U('Admin/userlist')}">用户列表</a>
+				</li>
+				<li >
+					<a href="{:U('Admin/user_permission')}">用户权限</a>
+				</li>
+				<li class="active">
+					<a href="#">编辑用户信息</a>
+				</li>
+			</ul>
+			<div class='btn-group'>
+				<a href='{:U("Admin/userlist")}' class="btn btn-info">返回列表</a>
+				</div>
+					<form class="form-horizontal" action='{:U("Admin/saveUserinfo")}' method='post'>
+					<fieldset>
+						<input type='hidden' value='{$userinfo._id}' name='_id'>
+						<div class="control-group">
+
+							<!-- Text input-->
+							<label class="control-label" for="input01">用户名</label>
+							<div class="controls">
+								<input type="text" name='uname' value='{$userinfo.uname}' placeholder="" class="input-xlarge">
+								<p class="help-block">用户登录标示</p>
+							</div>
+						</div>
+
+						<div class="control-group">
+							<!-- Search input-->
+							<label class="control-label">邮箱</label>
+							<div class="controls">
+								<input type="text" name="email" id="email" value='{$userinfo.email}' placeholder="email" class="input-xlarge">
+								<p class="help-block">请输入邮箱</p>
+							</div>
+
+						</div>
+
+
+
+						<div class="control-group">
+							<label class="control-label">性别</label>
+							<div class="controls">
+								<!-- Inline Radios -->
+								<label class="radio inline">
+									<input type="radio" value="0" name="sex" <if condition='$userinfo["sex"] eq 0'>checked</if>>
+									男
+								</label>
+								<label class="radio inline">
+									<input type="radio" value="1" name="sex" <if condition='$userinfo["sex"] eq 1'>checked</if>>
+									女
+								</label>
+							</div>
+						</div><div class="control-group">
+
+							<!-- Select Basic -->
+							<label class="control-label">状态</label>
+							<div class="controls">
+								<select class="input-xlarge" name="status">
+									<option value="1" <if condition='$userinfo["status"] eq 1'>selected</if>>正常</option>
+									<option value="0" <if condition='$userinfo["status"] eq 0'>selected</if>>禁止</option></select>
+							</div>
+
+						</div><div class="control-group">
+
+							<!-- Textarea -->
+							<label class="control-label">用户描述</label>
+							<div class="controls">
+								<div class="textarea">
+									<textarea type="" class="" name="description">{$userinfo.description}</textarea>
+								</div>
+							</div>
+						</div><div class="control-group">
+							<label class="control-label">权限</label>
+
+							<!-- Multiple Checkboxes -->
+							<div class="controls">
+								<!-- Inline Checkboxes -->
+								<volist name="nodes" id="vo">
+									<label class="checkbox inline">
+										<input type="checkbox" value="{$vo._id}" name="permission_node[]" <if condition="$vo['open'] eq 1">checked</if>>
+										{$vo.description}
+									</label>
+								</volist>
+								
+								
+							</div>
+
+						</div><div class="control-group">
+							<label class="control-label">提交</label>
+
+							<!-- Button -->
+							<div class="controls">
+								<button class="btn btn-success">添加</button>
+							</div>
+						</div>
+
+					</fieldset>
+				</form>
+				</div>
+			
+		</div>
+		
+	</div>
+</div>
+<include file="Public:admin_footer" />

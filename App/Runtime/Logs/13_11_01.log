@@ -1,0 +1,1185 @@
+[ 2013-11-01T20:24:58+08:00 ] 127.0.0.1 /beifeng/index.php/Index/addTopic.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 367 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: order C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 379 行.
+SQL: blog.category.find({},["name"]) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013671s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2013-11-01T20:24:58+08:00 ] 127.0.0.1 /beifeng/index.php/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+ERR: 非法操作:verify
+
+[ 2013-11-01T20:29:55+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_de
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+ERR: 非法操作:topic_de
+
+[ 2013-11-01T20:29:58+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 99 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2013-11-01T20:30:18+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000976s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2013-11-01T20:30:33+08:00 ] 127.0.0.1 /beifeng/index.php/Index/addTopic.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 367 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: order C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 379 行.
+SQL: blog.category.find({},["name"]) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016602s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001953s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000976s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:30:33+08:00 ] 127.0.0.1 /beifeng/index.php/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+ERR: 非法操作:verify
+
+[ 2013-11-01T20:32:13+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2013-11-01T20:32:16+08:00 ] 127.0.0.1 /beifeng/index.php/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+ERR: 非法操作:verify
+
+[ 2013-11-01T20:33:38+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000976s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:33:45+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:33:51+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52739faf135df8c40c000009"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000976s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2013-11-01T20:36:33+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2013-11-01T20:37:05+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:37:07+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002929s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002929s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000977s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:37:39+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:38:29+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+NOTIC: [8] Undefined variable: data C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2013-11-01T20:38:55+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2013-11-01T20:39:44+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000977s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001953s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002930s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003907s ]
+
+[ 2013-11-01T20:39:48+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: type C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:40:41+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: typeinfo C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 100 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001953s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000976s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:40:58+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002929s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002929s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:42:06+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:42:15+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001953s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001954s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2013-11-01T20:43:06+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+
+[ 2013-11-01T20:43:17+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+
+[ 2013-11-01T20:43:26+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+
+[ 2013-11-01T20:43:33+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: site_title C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 5 行.
+NOTIC: [8] Use of undefined constant beifeng - assumed 'beifeng' C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 5 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2013-11-01T20:44:07+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2013-11-01T20:44:55+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2013-11-01T20:45:24+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000977s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: site_desc C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 7 行.
+NOTIC: [8] Use of undefined constant beifeng - assumed 'beifeng' C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 7 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:46:11+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/52727223135df8800a000015
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"52727223135df8800a000015"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000976s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fa34c16fd367f0b1e5c"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: site_desc C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 7 行.
+NOTIC: [8] Use of undefined constant beifeng - assumed 'beifeng' C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 7 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012696s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:46:39+08:00 ] 127.0.0.1 /beifeng/index.php/Index/addTopic.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000976s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 367 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: order C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 379 行.
+SQL: blog.category.find({},["name"]) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: site_title C:\xampp\htdocs\Beifeng\App\Runtime\Cache\1f593e7c6dfcd0369cfaa68218d3e831.php 第 5 行.
+NOTIC: [8] Use of undefined constant beifeng - assumed 'beifeng' C:\xampp\htdocs\Beifeng\App\Runtime\Cache\1f593e7c6dfcd0369cfaa68218d3e831.php 第 5 行.
+NOTIC: [8] Undefined variable: site_desc C:\xampp\htdocs\Beifeng\App\Runtime\Cache\1f593e7c6dfcd0369cfaa68218d3e831.php 第 7 行.
+NOTIC: [8] Use of undefined constant beifeng - assumed 'beifeng' C:\xampp\htdocs\Beifeng\App\Runtime\Cache\1f593e7c6dfcd0369cfaa68218d3e831.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:46:39+08:00 ] 127.0.0.1 /beifeng/index.php/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+ERR: 非法操作:verify
+
+[ 2013-11-01T20:47:34+08:00 ] 127.0.0.1 /beifeng/index.php/Index/addTopic.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 367 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: order C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 379 行.
+SQL: blog.category.find({},["name"]) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: site_title C:\xampp\htdocs\Beifeng\App\Runtime\Cache\1f593e7c6dfcd0369cfaa68218d3e831.php 第 5 行.
+NOTIC: [8] Use of undefined constant beifeng - assumed 'beifeng' C:\xampp\htdocs\Beifeng\App\Runtime\Cache\1f593e7c6dfcd0369cfaa68218d3e831.php 第 5 行.
+NOTIC: [8] Undefined variable: site_desc C:\xampp\htdocs\Beifeng\App\Runtime\Cache\1f593e7c6dfcd0369cfaa68218d3e831.php 第 7 行.
+NOTIC: [8] Use of undefined constant beifeng - assumed 'beifeng' C:\xampp\htdocs\Beifeng\App\Runtime\Cache\1f593e7c6dfcd0369cfaa68218d3e831.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014649s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:47:34+08:00 ] 127.0.0.1 /beifeng/index.php/Index/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+ERR: 非法操作:verify
+
+[ 2013-11-01T20:47:40+08:00 ] 127.0.0.1 /beifeng/index.php/Index/doAddNewTopic.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.post.insert({"title":"\u5e0c\u671b\u754c\u9762\u518d\u7f8e\u89c2\u4e00\u70b9121212","body":"12121212","tag":["1","2","3"],"type_id":"52726fb74c16fd367f0b1e5d","comment_count":0,"created_date":1383310060,"hits":0}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2013-11-01T20:47:41+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/5273a2ec135df8300400000d.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"5273a2ec135df8300400000d"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000977s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fb74c16fd367f0b1e5d"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: site_desc C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 7 行.
+NOTIC: [8] Use of undefined constant beifeng - assumed 'beifeng' C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 7 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003907s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2013-11-01T20:48:07+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/5273a2ec135df8300400000d.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"5273a2ec135df8300400000d"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fb74c16fd367f0b1e5d"}}) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: site_desc C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 7 行.
+NOTIC: [8] Use of undefined constant beifeng - assumed 'beifeng' C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 7 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2013-11-01T20:48:09+08:00 ] 127.0.0.1 /beifeng/index.php/Index/topic_detail/id/5273a2ec135df8300400000d.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+SQL: blog.getCollection(post) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.post.findOne({"_id":{"$id":"5273a2ec135df8300400000d"}}) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\Beifeng\App\Lib\Action\IndexAction.class.php 第 72 行.
+SQL: blog.getCollection(user) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: where C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 442 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 648 行.
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.user.findOne({}) [ RunTime:0.000000s ]
+SQL: blog.getCollection(category) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: field C:\xampp\htdocs\Beifeng\ThinkPHP\Extend\Driver\Db\DbMongo.class.php 第 443 行.
+SQL: blog.category.findOne({"_id":{"$id":"52726fb74c16fd367f0b1e5d"}}) [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: site_desc C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 7 行.
+NOTIC: [8] Use of undefined constant beifeng - assumed 'beifeng' C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 7 行.
+NOTIC: [8] Undefined variable: tag_str C:\xampp\htdocs\Beifeng\App\Runtime\Cache\c3587f08939e5e45c767c321134f5d9b.php 第 108 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013671s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001953s ]
+

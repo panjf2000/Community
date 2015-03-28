@@ -1,0 +1,74 @@
+<include file="Public:public_header" />
+
+    <div class="container">
+
+      <div class="row">
+		  <div class='span12'>
+                        <ul class="breadcrumb">
+                            <li><a href="#">首页</a> <span class="divider">/</span></li>
+                            <li><a href="#">{$data.typeinfo.name}</a> <span class="divider">/</span></li>
+                            <li class="active">{$data.title}</li>
+                        </ul>
+                    </div>
+          <div class="span8">
+              <div class="content">
+                    <div class="content-header"><h3>详细内容</h3>
+                    </div>
+                    <div class="content-list">
+                       <div class='detail_info'>
+                                <h3>{$data.title}</h3>
+                                <p>作者：{$data.userinfo.uname}，{$data.created_date|date="Y-m-d",###}发布，分类：{$data.typeinfo.name}，{$data.hits}阅读</p>
+                                <p>标签：{$tag_str}&nbsp;</p>
+                            </div>
+                            <div class='detail_content'>{$data.body}</div>
+							
+							<div class='detail_comment'>
+                                
+								<foreach name='commentlist' item='vo'>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                  <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 64px; height: 64px;" src="__ROOT__/Uploads/{$vo.userinfo.thumb.thumb}">
+                                </a>
+                                <div class="media-body">
+                                  <h5 class="media-heading">[1]楼 <a href='{:U("User/index",array("id"=>$vo["userinfo"]["_id"]))}'>{$vo.userinfo.uname}</a></h5>
+								
+                                  <div class="media">
+                                    {$vo.content}
+                                  </div>
+								  
+                                  <div style='width:100%;text-align: right;'>发布于{$vo.created_date|date="Y-m-d H:i:s",###} <a href="javascript:;" class="show_textarea_btn" >回复</a>|{:W('CommentDigg',array('comment_id'=>$vo['_id'],'uid'=>$vo['uid']))}</div>
+								  <div style="display:none" class="reply_textarea"><textarea style="width:500px;"></textarea>
+									  <a href="javascript:;" class="btn btn-primary reply_comment" p_id="{$data._id}" mid="{$Think.session.mid}" comment_id="{$vo._id}" uname="{$vo.userinfo.uname}" uid="{$vo.uid}">回复</a>
+								  </div>
+								</div>
+                             </div>
+                                </foreach>
+                                <div class='input_area'>
+                                    <textarea rows='5' id='comment_content'></textarea>
+                                </div>
+								<input type='hidden' name='post_id' id='post_id' value='{$data._id}'>
+                                <div><a href="javascript:;" class='btn btn-info' id='comment_sub_btn' >快速回复</a></div>
+								<div id='comment_info'></div>
+                            </div>
+                    </div>
+              </div>
+          </div>
+          <div class="span4">
+              <div class="content-right">
+                  <div class="user_info">
+                      <h4>加入我们</h4>
+                      <p>如何快速的注册！</p>
+                      <a class="btn btn-primary">快速注册</a>
+                      <p>如何已经注册，请登录！</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+        
+<!--    <footer>
+        <p>&copy; Company 2013</p>
+        </footer>-->
+    </div>
+      <!-- /container end-->
+   
+<include file="Public:public_footer" />

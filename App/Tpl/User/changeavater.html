@@ -1,0 +1,45 @@
+<include file="Public:public_header" />
+
+    <div class="container">
+
+      <div class="row">
+          <div class="span8">
+              <div class="content">
+                    <div class="content-header"><h3>修改用户密码</h3>
+                    </div>
+				  <ul class="nav nav-tabs">
+                                <li  ><a href="{:U('User/setting')}">基本设置</a></li>
+                                <li  class="active" ><a href="{:U('User/changeavater')}">头像设置</a></li>
+                                <li ><a href="{:U('User/changepwd')}">修改密码</a></li>
+                            </ul>
+                    <div class="content-list">
+                       
+                      <div class='change_avatar'>
+                            <h4>当前头像：</h4>
+                            <img src='__ROOT__/Uploads/thumb_{$info.avater}' class='img-rounded' width='150' height="150">
+                            <img src='__ROOT__/Uploads/thumb_{$info.avater}' class='img-rounded' width='100' height="100">
+                            <form id="seticon" action="{:U('User/uploadAvatar')}" method="post" enctype="multipart/form-data">
+                                
+                                    <div class="formuitem">
+                                            <span>选择:</span>
+                                            <input type="file" name="icon" class="inputfile" value="选择图片">
+                                    </div>
+                                    <div><button class='btn btn-info' id='avatar_sub_btn' >确认</button></div>
+                              </form>
+                            </div>
+                    </div>
+                    
+              </div>
+          </div>
+          <div class="span4">
+              <div class="content"></div>
+          </div>
+      </div>
+        
+<!--    <footer>
+        <p>&copy; Company 2013</p>
+        </footer>-->
+    </div>
+      <!-- /container end-->
+   
+<include file="Public:public_footer" />

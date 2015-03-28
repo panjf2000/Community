@@ -1,0 +1,35 @@
+<include file="Public:public_header" />
+
+    <div class="container">
+
+      <div class="row">
+          <div class="span8">
+              <div class="content">
+                    <div class="content-header"><h3>综合讨论区</h3>
+                    </div>
+                    <div class="content-list">
+                        <volist name="lists" id="vo">
+                            <p>话题名称：<a href="{:U('Index/topic_detail',array('id'=>$vo['_id']))}" target="_blank">{$vo.title}</a></p>
+							<p>评论数量：{$vo.comment_count}</p>
+							<p>作者：{$vo.uname.uname}|分类：{$vo.typename}|发布日期：{$vo.created_date|date="Y-m-d H:i:s",###}</p>
+							<hr>
+						</volist>
+                        <div class="pagination"><ul>{$page}</ul></div>
+                    </div>
+              </div>
+          </div>
+          <div class="span4">
+              <div class="content-right">
+				  {:W('UserInfo',array('name'=>'lisi','age'=>18))}
+                  
+              </div>
+          </div>
+      </div>
+        
+<!--    <footer>
+        <p>&copy; Company 2013</p>
+        </footer>-->
+    </div>
+      <!-- /container end-->
+   
+<include file="Public:public_footer" />

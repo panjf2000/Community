@@ -1,0 +1,91 @@
+<include file="Public:public_header" />
+
+    <div class="container">
+
+      <div class="row">
+          <div class="span8">
+              <div class="content">
+                    <div class="content-header"><h3>修改用户密码</h3>
+                    </div>
+				  <ul class="nav nav-tabs">
+                                <li  ><a href="{:U('User/setting')}">基本设置</a></li>
+                                <li  ><a href="{:U('User/changeavater')}">头像设置</a></li>
+                                <li  class="active"><a href="{:U('User/changepwd')}">修改密码</a></li>
+                            </ul>
+                    <div class="content-list">
+                       
+                        <form class="form-horizontal" action='{:U("User/doChangePwd")}' method="post">
+							<fieldset>
+								<input type='hidden' name='pwd_mail_token' value='{$_GET["pwd_mail_token"]}'>
+								<div class="control-group" style="display:{$show_oldpwd};">
+
+									<!-- Text input-->
+									<label class="control-label" for="input01">原密码</label>
+									<div class="controls">
+										<input type="password" name='oldpwd' id='oldpwd' placeholder="请输入您当前的密码" class="input-xlarge">
+										<p class="help-block">原密码</p>
+									</div>
+								</div>
+
+								<div class="control-group">
+
+									<!-- Text input-->
+									<label class="control-label" for="input01">新密码</label>
+									<div class="controls">
+										<input type="password"  name='newpwd1' id='newpwd1' placeholder="请输入您的新密码" class="input-xlarge">
+										<p class="help-block">密码为8-20位开头必须字母的数字和字母组合</p>
+									</div>
+								</div>
+
+								<div class="control-group">
+
+									<!-- Text input-->
+									<label class="control-label" for="input01">再次输入</label>
+									<div class="controls">
+										<input type="password"  name='newpwd2' id='newpwd2' placeholder="再次输入新密码" class="input-xlarge">
+										<p class="help-block">输入确认</p>
+									</div>
+								</div>
+									<div class="control-group">
+
+									<!-- Text input-->
+									<label class="control-label" for="input01">验证码</label>
+									<div class="controls">
+										<img src="__APP__/User/verify" id='verify_img' onclick='checkimg(this)'>
+										<script>
+											function checkimg(obj){
+												//alert(obj);
+												obj.src = "__APP__/User/verify/time"+new Date().getTime();
+											}
+										</script>
+										<input type="text"  name='verify'  class="input-xlarge">
+										<p class="help-block">输入确认</p>
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">提交</label>
+
+									<!-- Button -->
+									<div class="controls">
+										<button class="btn btn-success" id='change_pwd_submit'>确认修改</button>
+									</div>
+								</div>
+
+							</fieldset>
+						</form>
+                    </div>
+                    
+              </div>
+          </div>
+          <div class="span4">
+              <div class="content"></div>
+          </div>
+      </div>
+        
+<!--    <footer>
+        <p>&copy; Company 2013</p>
+        </footer>-->
+    </div>
+      <!-- /container end-->
+   
+<include file="Public:public_footer" />

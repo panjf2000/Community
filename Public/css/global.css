@@ -1,0 +1,20 @@
+/*footer*/
+.footer{width:100%;background:#006666;height:80px;margin-top: 20px;color:white;text-align: center;padding-top: 20px;}
+.footer a{color:white;}
+/*footer*/
+
+/*content*/
+.content{width:100%;min-height: 700px;background: #fff;}
+.content .content-header{border-bottom: 2px solid #ddd;padding-top: 5px;}
+.content .content-header h3{margin-left:10px;}
+.content-list{background:#fff;height:auto;padding-top:30px;padding-left: 10px;padding-bottom: 20px;padding-right: 10px;border-bottom: 2px solid #eee;}
+.content-others{padding:10px;}
+/*content*/
+
+/*content-right*/
+.content-right{width:100%;min-height: 700px;background: #fff;padding-top: 20px;}
+.content-right .user_info{padding: 20px;background: #fff;}
+.content-right .user_info h4{border-bottom: 2px solid #ddd;padding-bottom: 1px;}
+/*content-right*/
+
+

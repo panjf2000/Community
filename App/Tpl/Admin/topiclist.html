@@ -1,0 +1,60 @@
+<include file="Public:admin_header" />
+
+    <div class="container">
+
+      <div class="row">
+          
+          <div class="span12">
+			  <div class="content" style="padding:10px;">
+				  <ul class="breadcrumb">
+					  <li><a href="#">内容管理</a> <span class="divider">/</span></li>
+					  <li><a href="#">话题管理</a> <span class="divider">/</span></li>
+					  <li class="active">话题列表</li>
+				  </ul>
+				  
+				  <ul class="nav nav-tabs">
+					  <li class="active">
+						  <a href="#">话题列表</a>
+					  </li>
+					  <li><a href="#">话题分类</a></li>
+					 
+				  </ul>
+				  
+				  <!--table-->
+				  <table class='table table-bordered'>
+					  <thead>
+						  <tr>
+							  <th>话题名称</th>
+							  <th>话题简介</th>
+							  <th>作者</th>
+							  <th>分类</th>
+							  <th>状态</th>
+							  <th>发布时间</th>
+							  <th>操作</th>
+						  </tr>
+					  </thead>
+					  <tbody>
+						   <volist name='lists' id='vo'>
+						  <tr>
+							  <td>{$vo.title}</td>
+							 <td>{$vo.body}</td>
+							 <td>{$vo.uname.uname}</td>
+							 <td>{$vo.typename}</td>
+							 <td>{$vo.status}</td>
+							 <td>{$vo.created_date|date="Y-m-d H:i:s",###}</td>
+							 <td>{$vo.action}</td>
+						  </tr>
+						   </volist>
+					  </tbody>
+				  </table>
+			  </div>
+		  </div>
+      </div>
+        
+<!--    <footer>
+        <p>&copy; Company 2013</p>
+        </footer>-->
+    </div>
+      <!-- /container end-->
+   
+<include file="Public:admin_footer" />
